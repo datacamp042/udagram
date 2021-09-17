@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: myawsbucket731872987860-3
+  AWS_PROFILE: 731872987860_admin_eu-central-1
+  AWS_REGION: eu-west-1
+  JWT_SECRET: hello
+  POSTGRES_HOST: database-731872987860.c8ojdyj8bea1.eu-west-1.rds.amazonaws.com
+  URL: http://localhost:8100  
+metadata:
+  name: env-config
+  
